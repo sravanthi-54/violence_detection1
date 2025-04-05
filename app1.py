@@ -91,7 +91,7 @@ if option == " Live Camera":
                 break
 
         cap.release()
-        cv2.destroyAllWindows()
+       
         st.success(" Live video stopped.")
 
 elif option == " Upload Video":
